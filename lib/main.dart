@@ -1,4 +1,4 @@
-import 'package:delta_music/screens/home_page.dart';
+import 'package:delta_music/screens/login_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,7 @@ class _MaterialState extends State<Material> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyHome(),
+      home: Login(),
     );
   }
 }
